@@ -24,7 +24,7 @@ protected function configure()
     parent::configure();
 }
 
-protected function execute(InputInterface $input, OutputInterface $output)
+protected function execute(InputInterface $input, OutputInterface $output): int
 {
     try { // Set the area code if it is not already set.
         $this->state->setAreaCode(\Magento\Framework\App\Area::AREA_FRONTEND);
