@@ -1,6 +1,6 @@
 {
     "name": "bredabeds/magento-email-attachments",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Magento 2 module for adding attachments to emails by BredaBeds",
     "type": "magento2-module",
     "license": "proprietary",
